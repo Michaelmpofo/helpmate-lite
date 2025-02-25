@@ -50,9 +50,9 @@ export function HelpRequestsProvider({ children }: { children: React.ReactNode }
       email: "example2@email.com",
       phone: "+1234567891",
       whatsapp: "",
-      status: "pending",
-      helper: null,
-      helperName: undefined
+      status: "help_offered",
+      helper: "helper123",
+      helperName: "John Smith"
     },
     {
       id: 3,
